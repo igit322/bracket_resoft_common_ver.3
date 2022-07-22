@@ -2,34 +2,30 @@
 
 /* Color */
 
-footer {
-  background-color: #e9e9e9;
+:root {
+  --white: #ffffff;
+  --dark: #000000;
+  --blue: #184b9f;
+  --footer-background: #e9e9e9;
+  --footer-txt: #9e9e9e;
+  --color-clear: rgba(255, 255, 255, 0);
 }
 
-.copyright,
-.footer_info {
-  color: #9e9e9e;
-}
-
-.header_txt {
-  color: #ffffff;
-}
-
-/* Transparent Menu Color */
+/* a Color */
 
 a:link {
-  color: #ffffff;
+  color: var(--white);
 }
 a:visited {
-  color: #ffffff;
+  color: var(--white);
 }
 
 a:hover {
-  color: #184b9f;
+  color: var(--blue);
 }
 
 a:active {
-  color: #184b9f;
+  color: var(--blue);
 }
 
 /* 공통(임시) */
@@ -71,16 +67,13 @@ footer,
 /* -----Transparent Menu Bar----- */
 
 nav {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-nav {
+  background-color: var(--color-clear);
   position: relative;
   max-width: 1920px;
   width: 100%;
   height: 80px;
   position: fixed;
-  z-index: 99;
+  z-index: 9999;
 }
 
 .logo_wrap {
@@ -108,10 +101,10 @@ nav {
 }
 
 .main_menu {
+  display: block;
   position: absolute;
   right: 380px;
   top: 26px;
-  display: block;
   font-weight: 500;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
     20px/29px var(--unnamed-font-family-noto-sans-kr);
@@ -122,8 +115,9 @@ nav {
   margin-left: 60px;
 }
 
+/* 선 */
 .nav_wrap::before {
-  background-color: #ffffff;
+  background-color: var(--white);
   content: "";
   display: block;
   width: 100%;
@@ -170,6 +164,7 @@ nav {
   position: absolute;
   top: 462px;
   left: 240px;
+  color: var(--white);
 }
 
 .main_header .header_txt_eng {
@@ -233,7 +228,13 @@ nav {
   display: inline-block;
 }
 
+.copyright,
+.footer_info {
+  color: var(--footer-txt);
+}
+
 footer {
+  background-color: var(--footer-background);
   position: relative;
   width: 100%;
   min-height: 250px;
