@@ -274,19 +274,20 @@ footer {
 }
 
 .footer_info_wrap {
-  position: absolute;
-  top: 125px;
-  left: 240px;
-  white-space: nowrap; /* 줄바꿈 하지않기 */
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 158px;
+  width: 100%;
+  padding-top: 75px;
+  padding-left: 240px;
+  padding-right: 50px;
 }
 
 .footer_info_wrap .footer_info {
-  min-width: 485px;
-  height: 76px;
-  margin-right: 158px;
+  min-height: 76px;
   vertical-align: top;
   font-size: var(--medium);
   font-weight: 300;
   line-height: 26px;
-  word-break: break-all;
+  word-break: keep-all;
 }
