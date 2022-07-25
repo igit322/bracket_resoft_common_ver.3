@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* 반응형웹 */
 
 @media screen and (max-width: 1280px) {
@@ -19,13 +21,9 @@
   }
 
   .footer_info_wrap {
-    left: 83px;
-    white-space: nowrap; /* 줄바꿈 하지않기 */
-  }
-
-  .footer_info_wrap .footer_info {
-    margin-right: 60px;
-    width: 600px;
+    padding-left: 83px;
+    padding-right: 50px;
+    gap: 60px;
   }
 }
 
@@ -54,11 +52,7 @@
   }
 
   .footer_info_wrap {
-    white-space: normal; /* 줄바꿈 */
-  }
-
-  .footer_info_wrap .footer_info {
-    width: 610px;
-    margin-bottom: 30px;
+    flex-direction: column;
+    gap: 30px;
   }
 }
