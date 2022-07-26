@@ -225,3 +225,60 @@ nav {
   font-size: var(--big);
   font-weight: 700;
 }
+
+
+/* -----footer----- */
+
+.footer_logo,
+.copyright,
+.footer_info {
+  display: inline-block;
+}
+
+.copyright,
+.footer_info {
+  color: var(--footer-txt);
+}
+
+footer {
+  background-color: var(--footer-background);
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_wrap {
+  position: absolute;
+  left: 240px;
+}
+
+.footer_wrap .footer_logo {
+  width: 200px;
+  height: 45px;
+}
+
+.footer_wrap .copyright {
+  font-size: var(--medium);
+  margin-left: 20px;
+}
+
+.footer_info_wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 158px;
+  width: 100%;
+  padding-top: 75px;
+  padding-left: 240px;
+  padding-right: 50px;
+}
+
+.footer_info_wrap .footer_info {
+  min-height: 76px;
+  vertical-align: top;
+  font-size: var(--medium);
+  font-weight: 300;
+  line-height: 26px;
+  word-break: keep-all;
+}
