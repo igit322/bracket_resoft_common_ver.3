@@ -22,18 +22,19 @@
 
 /* a Color */
 
-a:link {
-  color: var(--white);
-}
-a:visited {
+nav a:link {
   color: var(--white);
 }
 
-a:hover {
+nav a:visited {
+  color: var(--white);
+}
+
+nav a:hover {
   color: var(--blue);
 }
 
-a:active {
+nav a:active {
   color: var(--blue);
 }
 
@@ -45,7 +46,7 @@ a:active {
   color: var(--blue);
 } */
 
-/* 공통(임시) */
+/* 공통 (임시) */
 
 * {
   margin: 0;
@@ -60,19 +61,23 @@ body {
   margin: 0px auto;
 }
 
-ul {
+.main_header ul,
+nav ul,
+footer ul {
   list-style: none;
   padding: 0;
   font-size: 0;
 }
 
-li {
+.main_header li,
+nav li,
+footer li {
   display: inline-block;
   padding: 0;
   font-size: 0;
 }
 
-a {
+nav a {
   display: inline-block;
   text-decoration: none;
   font-size: var(--menu);
@@ -80,7 +85,7 @@ a {
 
 nav,
 footer,
-.main_header {
+.header_b {
   display: block;
 }
 
@@ -157,6 +162,7 @@ nav {
 
 .inner_wrap {
   display: none;
+  width: 100%;
 }
 
 .inner_wrap.active {

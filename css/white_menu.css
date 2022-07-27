@@ -22,19 +22,19 @@
 
 /* a Color */
 
-a:link {
+nav a:link {
   color: var(--dark);
 }
 
-a:visited {
+nav a:visited {
   color: var(--dark);
 }
 
-a:hover {
+nav a:hover {
   color: var(--blue);
 }
 
-a:active {
+nav a:active {
   color: var(--blue);
 }
 
@@ -69,19 +69,23 @@ body {
   margin: 0px auto;
 }
 
-ul {
+.main_header ul,
+nav ul,
+footer ul {
   list-style: none;
   padding: 0;
   font-size: 0;
 }
 
-li {
+.main_header li,
+nav li,
+footer li {
   display: inline-block;
   padding: 0;
   font-size: 0;
 }
 
-a {
+nav a {
   display: inline-block;
   text-decoration: none;
   font-size: var(--menu);
@@ -164,6 +168,7 @@ nav {
 
 .inner_wrap {
   display: none;
+  width: 100%;
 }
 
 .inner_wrap.active {
@@ -225,7 +230,6 @@ nav {
   font-size: var(--big);
   font-weight: 700;
 }
-
 
 /* -----footer----- */
 
