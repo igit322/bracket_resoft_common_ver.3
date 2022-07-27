@@ -42,6 +42,12 @@
     right: 32px;
   }
 
+  .menu_inner{
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+
   .main_menu li {
     display: none;
   }
