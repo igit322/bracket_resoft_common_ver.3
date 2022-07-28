@@ -67,23 +67,23 @@
     <!-- header -->
     <header class="main_header">
         <div class="cell_wrap">
-            <ul class="container">
-                <li class="cell">
+            <div class="container">
+                <div class="cell">
                     <img src="./images/images46-1.jpg" alt="1">
-                </li>
-                <li class="cell">
+                </div>
+                <div class="cell">
                     <img src="./images/images46-2.jpg" alt="2">
-                </li>
-                <li class="cell">
+                </div>
+                <div class="cell">
                     <img src="./images/images46-3.jpg" alt="3">
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
 
         <div class="button-container">
-            <button class="prev"></button>
-            <button class="play"></button>
-            <button class="next"></button>
+            <button class="prev" onclick="prevNext(-1)"></button>
+            <button class="play" onclick="stopSlide()"></button>
+            <button class="next" onclick="prevNext(1)"></button>
         </div>
 
         <div class="header_txt">
@@ -113,5 +113,7 @@
         </div>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/slides.js"></script>
+
 </body>
 </html>

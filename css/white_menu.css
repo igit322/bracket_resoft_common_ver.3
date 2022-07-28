@@ -100,7 +100,6 @@ footer,
 /* White Menu Bar */
 
 nav {
-  background-color: var(--white);
   max-width: 1920px;
   width: 100%;
   height: 80px;
@@ -112,6 +111,8 @@ nav {
   position: relative;
   width: 100%;
   height: 80px;
+  z-index: 9999;
+  background-color: var(--white);
 }
 
 .logo_wrap {
@@ -169,10 +170,24 @@ nav {
 .inner_wrap {
   display: none;
   width: 100%;
+  z-index: 9990;
+  animation: inner 1s;
 }
 
 .inner_wrap.active {
   display: block;
+}
+
+@keyframes inner {
+  from {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .menu_inner {
