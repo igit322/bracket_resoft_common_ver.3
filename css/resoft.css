@@ -243,16 +243,19 @@ nav {
 
 .cell {
   animation: fadein 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
-  from {
+  0% {
     opacity: 0.9;
+    backdrop-filter: blur(0px);
     filter: brightness(0.4) contrast(1.5);
   }
 
-  to {
+  100% {
     opacity: 1;
+    backdrop-filter: blur(0px);
     filter: brightness(0.6) contrast(1.5);
   }
 }
