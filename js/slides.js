@@ -22,10 +22,6 @@ function showSlides() {
   time = setTimeout(showSlides, 7000);
 }
 
-function stopSlide() {
-  clearTimeout(time);
-}
-
 function prevNext(num) {
   stopSlide();
   slideIndex += num;
@@ -43,4 +39,10 @@ function prevNext(num) {
   }
 
   slides[slideIndex - 1].style.display = "block";
+
+  time = setTimeout(showSlides, 7000);
+}
+
+function stopSlide() {
+  clearTimeout(time);
 }
