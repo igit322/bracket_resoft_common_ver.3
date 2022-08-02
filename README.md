@@ -1,5 +1,7 @@
 # 리소프트 홈페이지 만들기 2차 프로젝트
 
+![이미지](https://velog.velcdn.com/images/igit322/post/c7947666-37df-423c-aacf-3714cc3f5417/image.png)
+
 ### <프로젝트 일정>  
 7월 18일 - 8월 12일 (총 4주) 1차  
 
