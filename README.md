@@ -19,7 +19,10 @@
 
 ### <담당파트>  
 ### **상단 메뉴바, 헤더, 푸터**
-  
+
+![이미지](https://velog.velcdn.com/images/igit322/post/70b4452e-459a-4d98-b55e-2c19f5424d06/image.png)
+![이미지](https://velog.velcdn.com/images/igit322/post/8c84dad4-c4b2-4cb2-9c78-beff43573f88/image.png)
+
 ### <기능>
 #### 1. 상단 메뉴바
 - 토글 클릭할 때 펼쳐지는 메뉴
