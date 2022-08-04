@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+}
+
+:root {
+    --white: #ffffff;
+    --dark: #000000;
+    --blue: #184b9f;
+    --txtcolor: #1e1e1e;
+    --subtxt: #c8c8c8;
+}
+
+.organization_wrap{
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 906px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.organization_info_wrap{
+    width: 100%;
+    height: 666px;
+}
+
+.name_wrap{
+    height: 84px;
+}
+
+.name_box{
+    position: relative;
+    height: 84px;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.name_font{
+    font: normal normal bold 40px/58px Noto Sans KR;
+    color: var(--txtcolor);
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.sub_name_font{
+    font: normal normal medium 18px/26px Noto Sans KR;
+    color: var(--subtxt);
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.organization_info{
+    width: 73%;
+    margin-top : 50px;
+    height: 532px;
+    display: block;
+}
+
+.organization_info_wrap ul, 
+.organization_info_wrap > li{
+    list-style: none;
+}
+
+/* 조직도 내용 */
+.organization_info_wrap .blue_box,
+.organization_info_wrap .list_box {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.blue_box{
+    width: 200px;
+    height: 80px;
+    background: var(--blue) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    color: var(--white);
+    padding-top: 22px;
+    margin-bottom: 140px;
+}
+
+.wrap_ul{
+    position: absolute;
+    width: 73%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    min-width: 20%;
+    display: flex;
+
+}
+
+.list_box span{
+    display: block;
+    width: 200px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid var(--blue);
+    border-radius: 20px;
+    opacity: 1;
+    color: var(--txtcolor);
+    text-align: center;
+    padding-top: 18px;
+}
+
+.content{
+    color: var(--txtcolor);
+    width: 185px;
+    height: 192px;
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.content li{
+    list-style: disc;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 185px;
+}
+
+/* 선 */
+
+.list_box:after{
+    content: "";
+    width: 1px;
+    height: 73px;
+    position: absolute;
+    background-color: var(--dark);
+    margin-left: 0px;
+    margin-top: -385px;
+}
+
+.blue_box:after{
+    content: "";
+    width: 1px;
+    height: 73px;
+    position: absolute;
+    background-color: var(--dark);
+    margin-left: -48px;
+    margin-top: 53px
+}
+
+.wrap_ul:after{
+    content: "";
+    width: 1200px;
+    height: 1px;
+    position: absolute;
+    background-color: var(--dark);
+    margin-left: 3px;
+    margin-top: -73px;
+}
+
+/* 미디어쿼리 */
+
+@media screen and (max-width: 1280px) {
+    .organization_wrap{
+        height: 1500px;
+        padding-top: 110px;
+        padding-left: 140px;
+    }
+
+    .organization_info {
+        width: 500px;
+    }
+
+    /* 선 */
+    .line1:after{
+        content: "";
+        width: 1px;
+        height: 73px;
+        position: absolute;
+        background-color: var(--dark);
+        margin-left: -60px;
+        margin-top: -94px;
+    }
+
+    .line2:after{
+        content: "";
+        width: 1px;
+        height: 73px;
+        position: absolute;
+        background-color: var(--dark);
+        margin-left: -36px;
+        margin-top: -94px;
+    }
+
+    .list_box:after {
+        display: none;
+    }
+
+    .wrap_ul:after{
+        width: 300px;
+        margin-left: 100px;
+    }
+
+    /* 칸 조정 */
+    .wrap_ul {
+        width: 53%;
+        gap: 40px 100px;
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .wrap_ul {
+        width: 500px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .organization_wrap{
+        padding-left: 32px;
+    }
+}
