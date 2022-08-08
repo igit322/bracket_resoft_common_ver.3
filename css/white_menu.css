@@ -259,7 +259,7 @@ nav {
   background-repeat: no-repeat;
   /* background-position: center top; */
   object-fit: cover;
-  filter: brightness(0.8);
+  filter: brightness(0.7);
 }
 
 .title_txt {
