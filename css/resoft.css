@@ -290,7 +290,6 @@ nav {
 }
 
 .prev {
-  position: relative;
   width: 60px;
   height: 40px;
   background: transparent url("../images/Icon-prev.png") 0% 0% no-repeat
@@ -298,23 +297,25 @@ nav {
 }
 
 .stop {
-  position: absolute;
-  width: 15px;
+  position: relative;
+  width: 18px;
   height: 21px;
-  margin: 22px 13px 22px 28px; /* 화살표 공백 */
+  margin: 22px 10px 22px 28px; /* 화살표 공백 */
   background: transparent url("../images/Icon-stop.png") 0% 0% no-repeat
     padding-box;
   transform: translate(-50%, -50%);
+  display: inline-block;
 }
 
 .play {
+  position: relative;
   width: 18px;
   height: 21px;
-  margin: 22px 13px 22px 28px;
+  margin: 22px 10px 22px 28px;
   background: transparent url("../images/Icon-play.png") 0% 0% no-repeat
     padding-box;
   transform: translate(-50%, -50%);
-  visibility: hidden;
+  display: none;
 }
 
 .next {
