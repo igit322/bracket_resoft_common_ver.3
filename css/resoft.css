@@ -221,39 +221,27 @@ nav {
 
 .main_header .cell_wrap {
   overflow: hidden;
-  position: relative;
+
   width: 100%;
   height: 900px;
   margin: 0;
 }
 
 .main_header .container {
-  position: absolute;
-  width: 100%;
+  position: relative;
+  width: 1920px;
   height: 900px;
 }
 
 .main_header .cell {
+  position: absolute;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   filter: brightness(0.6) contrast(1.5);
-}
-
-.cell {
-  animation: fadein 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0.9;
-    filter: brightness(0.4) contrast(1.5);
-  }
-
-  to {
-    opacity: 1;
-    filter: brightness(0.6) contrast(1.5);
-  }
+  /* 미는효과 */
+  -webkit-transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
+  -o-transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
+  transition: all 0.25s cubic-bezier(1, 0.01, 0.32, 1);
 }
 
 /* 헤더 글씨 */

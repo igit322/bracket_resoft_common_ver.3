@@ -3,6 +3,14 @@
 /* 반응형웹 */
 
 @media screen and (max-width: 1280px) {
+  .main_menu {
+    right: 272px;
+  }
+
+  .menu_inner {
+    padding-right: 242px;
+  }
+
   .logo_wrap {
     left: 231px;
   }
@@ -27,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
   .main_menu {
     display: none;
   }
