@@ -437,3 +437,22 @@ footer {
   line-height: 26px;
   word-break: keep-all;
 }
+
+/* 추가 영역 */
+
+section {
+  width: 100%;
+  height: 1500px;
+}
+
+section div {
+  width: 100%;
+  height: 1500px;
+  background-image: url("../images/proj_ecoce_2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
