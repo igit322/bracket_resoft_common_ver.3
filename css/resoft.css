@@ -281,13 +281,12 @@ nav a:active.add {
 
 .main_header .cell_wrap {
   overflow: hidden;
-
   width: 100%;
   height: 900px;
   margin: 0;
 }
 
-.main_header .container {
+.main_header .slider {
   position: relative;
   width: 1920px;
   height: 900px;
@@ -295,15 +294,18 @@ nav a:active.add {
 
 .main_header .cell {
   position: absolute;
+  left: 0;
+  top: 0;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   filter: brightness(0.6) contrast(1.5);
+}
+
+.transition {
   /* 미는효과 */
   -webkit-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
   -o-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
   transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-  /* scroll-snap-type: x mandatory;
-  scroll-snap-align: start; */
 }
 
 /* 헤더 글씨 */
@@ -438,21 +440,19 @@ footer {
   word-break: keep-all;
 }
 
-/* 추가 영역 */
-
-section {
-  width: 100%;
-  height: 1500px;
-}
-
-section div {
-  width: 100%;
-  height: 1500px;
-  background-image: url("../images/proj_ecoce_2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-  position: fixed;
-  top: 0;
-  z-index: -1;
+/* 추가 영역 */	
+section {	
+  width: 100%;	
+  height: 1500px;	
+}	
+section div {	
+  width: 100%;	
+  height: 1500px;	
+  background-image: url("../images/proj_ecoce_2x.png");	
+  background-repeat: no-repeat;	
+  background-size: cover;	
+  opacity: 0.1;	
+  position: fixed;	
+  top: 0;	
+  z-index: -1;	
 }
