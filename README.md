@@ -47,7 +47,7 @@
 - 캐러셀 버튼 기능2 : 일시정지 누를 시 재생 버튼 나타남 & 앞뒤 버튼 누르거나 재생 버튼 누를 시 일시정지 버튼 나타남  
   
   
-![이미지](https://velog.velcdn.com/images/igit322/post/8978afac-7630-4057-bad4-dffb2f1f17c3/image.gif)
+![이미지](https://velog.velcdn.com/images/igit322/post/bf1de1ce-e4ef-41b2-83d7-b802489290b4/image.gif)
   
 #### 3. 푸터  
 - 모바일 사이즈에서 다음 줄로 넘어가는 미디어쿼리  
@@ -115,4 +115,4 @@
 220817 추가 주문에 따라 8월 2일에 제거했던 상단 메뉴바 고정, 제이쿼리를 사용한 스크롤 이벤트 다시 추가 변경  
 　　　　고정 시 메뉴 특정 위치에서 마우스 오버 underline 밑줄 그어지는 효과 추가  
 220822 캐러셀 변경 : 첫 번째 이미지로 돌아가는 현상 없이 계속 한 방향으로 반복되는 슬라이드 형태 (Infinite Carousel)  
-　　　　헤더 텍스트영역 작은 사이즈에서 글씨와 버튼 겹치는 현상 수정한 미디어쿼리 추가 https://igit322.github.io/bracket_resoft_common_ver.3/  
+　　　　미디어쿼리 최소 사이즈 추가 : 헤더 텍스트영역 모바일 사이즈에서 글씨와 버튼 겹치는 현상 있어서 수정  https://igit322.github.io/bracket_resoft_common_ver.3/  
