@@ -216,7 +216,7 @@ nav {
 
 .menu_inner {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   gap: 40px;
   width: 100%;
