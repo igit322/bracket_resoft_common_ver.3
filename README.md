@@ -22,7 +22,7 @@
 
 **팀 저장소** : https://github.com/jwon11/bracket2 　|　 **팀 사이트** : https://jwon11.github.io/bracket2/
 
-**개인파트 사이트** : https://igit322.github.io/bracket_resoft_common_ver.2/
+**개인파트 사이트** : https://igit322.github.io/bracket_resoft_common_ver.3/
 
 ------------  
 
@@ -41,12 +41,13 @@
   
 #### 2. 메인 헤더  
 - 헤더 이미지 필터 적용  
+- 한 방향으로 반복되는 캐러셀 (Infinite Carousel)   
 - 3초 마다 이미지가 변경되는 캐러셀 (순수 자바스크립트)  
 - 캐러셀 버튼 기능1 : 이미지 넘김 후 다시 오토 슬라이드  
 - 캐러셀 버튼 기능2 : 일시정지 누를 시 재생 버튼 나타남 & 앞뒤 버튼 누르거나 재생 버튼 누를 시 일시정지 버튼 나타남  
   
   
-![이미지](https://velog.velcdn.com/images/igit322/post/6049fa94-140e-4e08-a2e5-275876a6d0c1/image.gif)
+![이미지](https://velog.velcdn.com/images/igit322/post/8978afac-7630-4057-bad4-dffb2f1f17c3/image.gif)
   
 #### 3. 푸터  
 - 모바일 사이즈에서 다음 줄로 넘어가는 미디어쿼리  
@@ -114,4 +115,4 @@
 220817 추가 주문에 따라 8월 2일에 제거했던 상단 메뉴바 고정, 제이쿼리를 사용한 스크롤 이벤트 다시 추가 변경  
 　　　　고정 시 메뉴 특정 위치에서 마우스 오버 underline 밑줄 그어지는 효과 추가  
 220822 캐러셀 변경 : 첫 번째 이미지로 돌아가는 현상 없이 계속 한 방향으로 반복되는 슬라이드 형태 (Infinite Carousel)  
-　　　　헤더 텍스트영역 작은 사이즈에서 글씨와 버튼 겹치는 현상 수정한 미디어쿼리 추가
+　　　　헤더 텍스트영역 작은 사이즈에서 글씨와 버튼 겹치는 현상 수정한 미디어쿼리 추가 https://igit322.github.io/bracket_resoft_common_ver.3/  
