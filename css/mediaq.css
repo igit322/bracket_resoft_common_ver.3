@@ -95,3 +95,25 @@
     gap: 30px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .main_header .header_txt_eng {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .main_header .header_txt_sub {
+    font-size: var(--medium);
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .main_header .header_txt_eng {
+    margin-top: 100px;
+  }
+
+  .main_header .header_txt_sub {
+    display: none;
+  }
+}
