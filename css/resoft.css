@@ -296,8 +296,8 @@ nav a:active.add {
   position: absolute;
   left: 0;
   top: 0;
-  backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
   filter: brightness(0.6) contrast(1.5);
 }
 
