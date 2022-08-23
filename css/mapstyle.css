@@ -58,7 +58,11 @@ div {
 }
 
 .name_font{
-    font: normal normal bold 40px/58px Noto Sans KR;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
     color: var(--txtcolor);
     text-align: left;
     letter-spacing: 0px;
@@ -66,7 +70,11 @@ div {
 }
 
 .sub_name_font{
-    font: normal normal medium 18px/26px Noto Sans KR;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 26px;
     color: var(--subtxt);
     text-align: left;
     letter-spacing: 0px;
