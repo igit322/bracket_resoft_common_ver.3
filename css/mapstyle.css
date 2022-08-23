@@ -72,7 +72,7 @@ div {
 .sub_name_font{
     font-style: normal;
     font-variant: normal;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     color: var(--subtxt);
