@@ -115,4 +115,11 @@
 220817 추가 주문에 따라 8월 2일에 제거했던 상단 메뉴바 고정, 제이쿼리를 사용한 스크롤 이벤트 다시 추가 변경  
 　　　　고정 시 메뉴 특정 위치에서 마우스 오버 underline 밑줄 그어지는 효과 추가  
 220822 캐러셀 변경 : 첫 번째 이미지로 돌아가는 현상 없이 계속 한 방향으로 반복되는 슬라이드 형태 (Infinite Carousel)  
-　　　　미디어쿼리 최소 사이즈 추가 : 헤더 텍스트영역 모바일 사이즈에서 글씨와 버튼 겹치는 현상 있어서 수정  https://igit322.github.io/bracket_resoft_common_ver.3/  
+　　　　미디어쿼리 최소 사이즈 추가 : 헤더 텍스트영역 모바일 사이즈에서 글씨와 버튼 겹치는 현상 있어서 수정  
+220823 최종 마감일 - 웹 표준 검사, 테스트, 작업 내용 정리  https://igit322.github.io/bracket_resoft_common_ver.3/
+      
+<a href="http://validator.kldp.org/check?uri=https%3A%2F%2Figit322.github.io%2Fbracket_resoft_common_ver.3%2F;accept=text%2Fhtml%2Ctext%2Fxml%2Capplication%2Fxhtml%2Bxml%2Capplication%2Fxml%2C%2A%2F%2A%3Bq%3D0.1">
+<img src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="markup">
+</a>  <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Figit322.github.io%2Fbracket_resoft_common_ver.3%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ko">
+<img src="http://validator.kldp.org/w3cimgs/validate/css30-green.png" alt="markup">
+</a> 
